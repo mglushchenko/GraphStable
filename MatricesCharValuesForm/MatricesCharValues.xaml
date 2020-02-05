@@ -1,0 +1,42 @@
+﻿<Window x:Class="MatricesCharValuesForm.MatricesCharValues"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MatricesCharValuesForm"
+        mc:Ignorable="d"
+        Title="Characteristic values" Height="300" Width="600" MaxHeight="300" MaxWidth="600">
+
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="binary matrix:" HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" FontSize="16">
+        </TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="matrix P:" HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" FontSize="16">
+        </TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="matrix S:" HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" FontSize="16">
+        </TextBlock>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" Grid.Row="0" Grid.Column="1">
+            <Canvas x:Name="binCanvas" x:FieldModifier="public" Grid.Row="0" Grid.Column="1" Width="2000"></Canvas>
+        </ScrollViewer>
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" Grid.Row="1" Grid.Column="1">
+            <Canvas x:Name="canvasP" x:FieldModifier="public" Grid.Row="1" Grid.Column="1" Width="2000"></Canvas>
+        </ScrollViewer>
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" Grid.Row="2" Grid.Column="1">
+            <Canvas x:Name="canvasS" x:FieldModifier="public" Grid.Row="2" Grid.Column="1" Width="2000"></Canvas>
+        </ScrollViewer>
+    </Grid>
+
+</Window>

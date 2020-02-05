@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="form_redesign.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFQAASAGAQiAAEKBwYEAAAyIMAIHCAAQAgBQMSAgg=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="form_redesign.App">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawingCanvas" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAAwAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAEAA=</HashCode>
+      <FileName>DrawingCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Edge" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Graph" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Matrix" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Vector" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Vertex" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MatricesCharValuesForm.App" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MatricesCharValuesForm.MatricesCharValues" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SetEdgeWeightDialogBox.App" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SetEdgeWeightDialogBox.EdgeWeightDialogBox" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
